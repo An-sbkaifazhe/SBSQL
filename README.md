@@ -18,6 +18,7 @@
 - **备份方案**：Ctrl+C / Ctrl+V
 
 ---
+- **Weight** — less than 15KB. Lighter than your average favicon.
 
 ## Architecture
 

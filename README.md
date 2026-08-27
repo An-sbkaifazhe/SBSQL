@@ -190,7 +190,7 @@ A: Notepad.
 A: Shift+Delete. No recycle bin.
 
 **Q: Is this production ready?**
-A: 你敢上生产我就敢看笑话。
+A: It is Amazing.TRY IT?。
 
 **Q: Why is my semicolon disappearing?**
 A: What semicolon? 🙄✌🏻️
@@ -219,12 +219,12 @@ Do **NOT** place any `.md` or `.txt` files you do not want scanned inside your
 
 ### 条件
 
-1. 必须是**真实生产环境**（面向真实用户，不是你室友）。
+1. 必须是**真实生产环境**（面向真实用户，不是你室友，可以是小组作业，但不能是没有意义的空跑。）。
 2. 必须处理**真实数据**（不是 `"hello world"` 循环打印）。
 3. 必须是**首个**达成者（非首个不予受理）。
 4. 需提供**截图证明**（打码可以，但得能看出是 SBSQL 在跑）。
 5. 存活天数计算：自首次对外提供服务起，连续 **21 天**。
-
+6. 只能中国人参加，因为我真的真的没有境外付款渠道，对不起。
    **附则**：若能提供你与其他生产人员使用这个项目**真实沟通记录**（Issue / 邮件 / IM 均可），
    经核实后，存活要求放宽至 14天
    是一个小组作业也可以，但是要有沟通过程哈哈。
@@ -235,8 +235,8 @@ Do **NOT** place any `.md` or `.txt` files you do not want scanned inside your
 ### 备注
 
 - 50 元将通过**微信转账**。不是哈夫币，不是冥币
-- 如果你做到了，真的请立即就医。
-- 本项目不对因使用 SBSQL 导致的任何数据丢失、服务中断、精神损伤负责。
+- 如果你做到了，收集材料，邮箱发我，添加我的付款方式。
+- 本项目不对因使用 SBSQL 导致的任何数据丢失、服务中断。
   但你已经被警告过了。 🙄✌🏻
 
 ---

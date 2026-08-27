@@ -2,6 +2,7 @@
 
 > Security-Based Sequential Query Language
 > 基于物理隔离的只读查询引擎
+> 哪怕是新手，也能1秒成为全栈DBA
 
 **万物皆文件。文件夹即索引。文件名即密钥。用户的每一个字节都是邪恶的。**
 

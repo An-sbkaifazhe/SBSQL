@@ -154,7 +154,7 @@ SBSQL 不是"没有安全"——它是把安全模型从 **ACL（访问控制列
 | OCap 核心特性 | SBSQL 的实现 |
 |--------------|-------------|
 | **引用即权限** | 文件名即 capability。持有 `data/tmp/x7KpQ2mR...txt` 的引用，你就能读它。没有这个文件？你连它存在都不知道。 |
-| **不可伪造** | 80 位字母数字随机串，搜索空间 `62^80`。不是"很难猜"，是**物理上不可能猜**。比你的密码强，比你的私钥强，比你的婚姻还牢固。 |
+| **不可伪造** | 80 位字母数字随机串，搜索空间 `62^80`。不是"很难猜"，是**物理上不可能猜**。比你的密码强，比你的私钥强，比离线服务器的数据还牢固。 |
 | **最小权限** | 每个 capability 只指向一个文件（一列数据）。你拿到了 `admin_password.txt` 的引用？恭喜，你能读那一个文件。你不能读别的。你不能写。你不能删。你不能列目录。你是个拿着一把钥匙的瞎子，钥匙只开一扇门。 |
 | **不可派生** | 拿到一个 capability 不能算出另一个。文件名之间没有数学关系，不存在"有了 A 就能推出 B"。 |
 | **可传递 / 可撤销** | 把文件名发给别人 = 把 capability 传递给他。删掉文件（`Shift+Delete`）= 撤销。没有吊销列表，没有 token 黑名单。 |
@@ -244,7 +244,6 @@ SBSQL 的推荐架构：
 - Dennis & Van Horn (1966), *Programming Semantics for Multiprogrammed Computations*
 - Miller et al. (2006), *Robust Composition: Towards a Unified Approach to Access Control and Concurrency Control*
 - Mark S. Miller 的 [对象能力模型简介](https://ocap-lang.org/)
-- 本项目 README（同一个作者，同一份欠揍的语气）
 - 一个叫 `An-sbkaifazhe` 的人写的 Flask API（里面 `user` / `passwd` 参数名的陷阱注释）
 
 ---

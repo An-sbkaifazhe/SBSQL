@@ -238,7 +238,8 @@ Do **NOT** place any `.md` or `.txt` files you do not want scanned inside your
 - 如果你做到了，收集材料，邮箱发我，添加我的付款方式。
 - 本项目不对因使用 SBSQL 导致的任何数据丢失、服务中断。
   但你已经被警告过了。 🙄✌🏻
-
+  你能看到这个＂悬赏＂就说明这个奖励还没能被拿走(或者是还未同步)
+ 注意，只有每周六的时候我会翻邮件，按照发邮件的时间，先后作为时间判断标准。
 ---
 
 > **SBSQL — Physical isolation as a feature. Not a limitation.**

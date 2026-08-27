@@ -361,7 +361,57 @@ A: It is Amazing.TRY IT?。
 A: What semicolon? 🙄✌🏻️
 
 ---
+---
 
+SBSQL 使用说明
+
+# Step 1: 建立你的数据库
+
+找个你喜欢的文件夹，比如 ~/Desktop。往里扔一个叫 data 的文件夹。然后在这个 data 文件夹里建个叫 tmp 的子文件夹。
+
+```bash
+mkdir -p ~/Desktop/data/tmp
+```
+
+# Step 2: 建立你的“表头”（也就是列名）
+
+在 tmp 文件夹里，往里扔几个纯**文本文档**（.txt），作为你的“列”。强烈建议使用 80 位随机字母数字串作为文件名，不然会被“毕业”。
+
+```bash
+echo "1234567890
+2345678901
+3456789012" > ~/Desktop/data/tmp/sbdata1.txt
+```
+
+# Step 3: 启动 SBSQL 终端
+
+```bash
+python fucksql.py
+```
+
+# Step 4: 学学怎么 “查询”
+
+你只需要知道这三句：
+
+```sql
+SHOW TABLES;
+DESCRIBE tmp;
+SELECT tmp.sbdata1 2;
+```
+
+· SHOW TABLES;  → 列出所有物理文件夹
+· DESCRIBE tmp; → 列出 tmp 文件夹里所有的 .txt 文件
+· SELECT tmp.sbdata1 2; → 从 tmp 文件夹里的 sbdata1.txt 文件，读出第 2 行数据
+
+# Step 5: 想要“更新数据”？
+
+用你的手，打开文件管理器，双击那个 .txt 文件，改字，保存。完事。
+
+# Step 6: 想要“写入数据”？
+
+你只需要记住一句 SBSQL 的核心真理：
+
+现在，立刻，马上打开你的文件管理器！数据库不是给你看的，更不是给你用的！
 ## Warning
 
 Do **NOT** place any `.md` or `.txt` files you do not want scanned inside your

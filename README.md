@@ -385,7 +385,7 @@ Do **NOT** place any `.md` or `.txt` files you do not want scanned inside your
 ## RMB 50
 
 第一个将 SBSQL 部署到生产环境并成功运行超过 **21 个自然日**的人，
-本人将个人悬赏人民币 **50 元整**。
+本人将个人悬赏人民币 **50 元整(加开发者女装cos照(可选））**。
 
 ### 条件
 
@@ -400,7 +400,7 @@ Do **NOT** place any `.md` or `.txt` files you do not want scanned inside your
    是一个小组作业也可以，但是要有沟通过程哈哈。
 
 7. 期间不得偷偷换成 MySQL / PostgreSQL / SQLite / 任何"正经"数据库。
-   一经发现，悬赏作废，并需退还已领取金额（如有）。
+   一经发现，悬赏作废。
 
 ### 备注
 

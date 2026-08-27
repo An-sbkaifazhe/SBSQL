@@ -165,7 +165,7 @@ SBSQL 自豪地坚持**自托管、自管理、自夸**。
 | `SELECT <table>.<col> <row>;` | Read one row |
 
 That's it. 只有三条。别问为什么没有 INSERT。
-
+调用其他命令的时候会出现诡异的现象(自己猜)
 ---
 
 ## Security

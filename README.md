@@ -48,33 +48,6 @@
 └─────────────┘
 
 ---
-
-## Quick Start
-
-### Prerequisites
-
-- Python 3.6+
-- A brain
-
-### Install
-
-不需要安装。把文件下载下来。
-
-### Run
-
-bash
-
-python SBSQL_sbuser_api.py    # Web API
-
-python SBSQL.py               # Local REPL
-
-### Create Database
-
-自己建文件夹。自己建 txt 文件。自己往里写内容。
-这是你的工作。我们不管。
-
-> 详见: https://sbsql.local/docs/ （这个链接不存在）
-
 ---
 ---
 
@@ -347,7 +320,29 @@ That's it. 只有三条。别问为什么没有 INSERT。
 - 认证：表头文件名即密码（建议 80 位字母数字随机串）
 
 ---
+## Quick Start
 
+### Prerequisites
+
+- Python 3.6+
+- A brain
+
+### Install
+
+不需要安装。把文件下载下来。
+
+### Run
+
+bash
+
+python SBSQL_sbuser_api.py    # Web API
+
+python SBSQL.py               # Local REPL
+
+### Create Database
+
+自己建文件夹。自己建 txt 文件。自己往里写内容。
+这是你的工作。我们不管。
 ## FAQ
 
 **Q: How do I insert data?**

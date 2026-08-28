@@ -3,6 +3,7 @@
 > Security-Based Sequential Query Language
 > 基于物理隔离的只读查询引擎
  ![SBSQL](sbsql.png)
+> 
  在SBSQL极致的可读性下，人人都可以比肩DBA
  10分钟即可掌握SBSQL
  SBSQL递给你一把M250班用机枪，用于扫射用户的非法字段

@@ -427,6 +427,17 @@ SBSQL 项目团队（共 1 人，兼任审稿人）以同等学术严谨性确�
 进一步阅读：
 
 [1] An-sbkaifazhe. "A Flask API That Reads Txt Files." 2026.
+<p align="center">
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <text x="200" y="30" text-anchor="middle" font-size="16" font-family="Arial, sans-serif" fill="#333">SBSQL全球高端数据库市场份额</text>
+  <!-- 其他数据库：100% 扇形（整圆） -->
+  <circle cx="200" cy="220" r="150" fill="#4e79a7"/>
+  <!-- SBSQL：0%（不可见，留个注释纪念） -->
+  <!-- <circle cx="200" cy="220" r="150" fill="#e15759" stroke="#fff" stroke-width="2"/> -->
+  <text x="200" y="380" text-anchor="middle" font-size="14" font-family="Arial, sans-serif" fill="#333">■ 其他数据库 100%  ■ SBSQL 0%</text>
+</svg>
+</p>
+
 ## SBSQL 使用说明
 
 # Step 1: 建立你的数据库

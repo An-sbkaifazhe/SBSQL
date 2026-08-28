@@ -497,7 +497,13 @@ Do **NOT** place any `.md` or `.txt` files you do not want scanned inside your
 > SBSQL License v1.0: You can use it for free. You cannot complain about it.
 
 ---
+ 
 
+## Roadmap：
+v2.0 将支持 INSERT，计划于 2077 年发布，预计推出收费999RMB的版本
+在此之前请继续使用 Notepad
+届时将同步推出《SBSQL 官方认证考试》与《从 txt 到分布式：SBSQL 架构实战》
+（全 1200 页，附赠 Notepad 使用指南）
 # Bounty
 
 ## RMB 50

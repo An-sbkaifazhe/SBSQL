@@ -450,7 +450,7 @@ echo "1234567890
 # Step 3: 启动 SBSQL 终端
 
 ```bash
-python fucksql.py
+python SQSQL.py
 ```
 
 # Step 4: 学学怎么 “查询”

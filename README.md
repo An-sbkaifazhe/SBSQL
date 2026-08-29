@@ -561,13 +561,120 @@ Do **NOT** place any `.md` or `.txt` files you do not want scanned inside your
  
 
 ## Roadmap：
-v2.0 将支持 INSERT，计划于 2077 年发布，预计推出收费999RMB的版本
+v0.0.2 将支持 INSERT，计划于 2077 年发布，预计推出收费999RMB的版本
 
 在此之前请继续使用 Notepad或者打孔纸带
 
 届时将同步推出《SBSQL 官方认证考试》与《从 txt 到分布式：SBSQL 架构实战》
 
 （全 1200 页，附赠 Notepad 使用指南）
+Changelog
+
+# [v0.0.1] - 2026-08-27
+
+初始发布 / ***创世纪***版本
+
+Added
+
+实现了基于**对象能力模型**（OCap）的文件系统访问层
+
+支持  **SHOW TABLES**  语句（实为  os.listdir ）
+
+支持  **DESCRIBE**  语句（实为  os.listdir  的另一种调用方式）
+
+支持 **SELECT**  语句（实为  open().readlines() ）
+
+引入了分在用户**恶意输入**时的**分号吞噬机制**（正则  ;  匹配，业界首创）
+
+完整的学术附录（含 1966 年论文引用）
+
+市场份额饼图（SBSQL 0%）
+
+渐进式渲染 logo（加载完成前不可知）
+
+全球化市场推广战略（预算 ¥80）
+
+Changed
+
+无（首次发布）
+
+Deprecated
+
+无
+
+Removed
+
+无
+
+Fixed
+
+修复了"试图用 INSERT"的问题（解决方案：不支持 INSERT）
+
+Security
+
+文件名即 capability，搜索空间 62^80，超越人类想象
+
+消灭了 SQL 注入攻击面（因为没有 SQL 引擎可供注入）
+
+消灭了权限绕过漏洞（因为没有权限系统可供绕过）
+
+消灭了缓冲区溢出风险（因为 Python 帮你管了）
+
+消灭了数据泄露风险（因为数据就是 txt，谁都能看，不存在泄露）
+
+ 
+
+[v0.0.2] - 计划于 2077 Q2
+
+安全增强版本
+
+Planned
+
+修复分号被吃的问题（实际上不修）
+
+增加第 4 条命令（待定）
+
+将市场份额从 0% 提升至 0.000001%
+
+推广预算追加至 ¥160（翻倍战略）
+
+ 
+
+[v2.0] - 计划于 2091
+
+重大功能版本
+
+Planned
+
+支持  INSERT INTO  语句
+
+企业版定价 ¥999
+
+社区版仍不支持 INSERT（设计如此）
+
+引入 WAL（Write-Ahead Laugh）机制
+
+分布式集群部署（通过 U 盘人工传递 txt 文件）
+
+ 
+
+[v3.0] - 计划于 4099发布
+
+量子时代版本
+
+Planned
+
+支持 DELETE
+
+引入区块链（用 txt 文件模拟 Merkle Tree）
+
+定价 ¥99999
+
+届时 SBSQL 将成为"**上古神器**"，被考古学家挖掘研究
+
+ 
+
+Changelog 遵循 Semantic Versioning 规范。当前版本 v0.0.1，距 v2.0 还有 51 年。
 
 ## SBSQL全球化市场推广战略
 
